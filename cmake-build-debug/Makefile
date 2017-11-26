@@ -122,6 +122,33 @@ Banking_Application/fast:
 	$(MAKE) -f CMakeFiles\Banking_Application.dir\build.make CMakeFiles/Banking_Application.dir/build
 .PHONY : Banking_Application/fast
 
+Model/Account/Account.obj: Model/Account/Account.cpp.obj
+
+.PHONY : Model/Account/Account.obj
+
+# target to build an object file
+Model/Account/Account.cpp.obj:
+	$(MAKE) -f CMakeFiles\Banking_Application.dir\build.make CMakeFiles/Banking_Application.dir/Model/Account/Account.cpp.obj
+.PHONY : Model/Account/Account.cpp.obj
+
+Model/Account/Account.i: Model/Account/Account.cpp.i
+
+.PHONY : Model/Account/Account.i
+
+# target to preprocess a source file
+Model/Account/Account.cpp.i:
+	$(MAKE) -f CMakeFiles\Banking_Application.dir\build.make CMakeFiles/Banking_Application.dir/Model/Account/Account.cpp.i
+.PHONY : Model/Account/Account.cpp.i
+
+Model/Account/Account.s: Model/Account/Account.cpp.s
+
+.PHONY : Model/Account/Account.s
+
+# target to generate assembly for a file
+Model/Account/Account.cpp.s:
+	$(MAKE) -f CMakeFiles\Banking_Application.dir\build.make CMakeFiles/Banking_Application.dir/Model/Account/Account.cpp.s
+.PHONY : Model/Account/Account.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... Banking_Application
 	@echo ... rebuild_cache
+	@echo ... Model/Account/Account.obj
+	@echo ... Model/Account/Account.i
+	@echo ... Model/Account/Account.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

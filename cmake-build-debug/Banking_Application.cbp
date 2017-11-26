@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/amits/CLionProjects/Banking Application/Model/Account/Account.cpp">
+			<Option target="Banking_Application"/>
+		</Unit>
+		<Unit filename="C:/Users/amits/CLionProjects/Banking Application/Model/Account/Account.h">
+			<Option target="Banking_Application"/>
+		</Unit>
 		<Unit filename="C:/Users/amits/CLionProjects/Banking Application/main.cpp">
 			<Option target="Banking_Application"/>
 		</Unit>
